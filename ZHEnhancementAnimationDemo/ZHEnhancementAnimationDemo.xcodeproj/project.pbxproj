@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		FA9030A71F27057B0045D46E /* ZHEnhancementLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = FA9030A61F27057B0045D46E /* ZHEnhancementLayer.m */; };
+		FAB5F2F41F270CCA00CE8776 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB5F2F31F270CCA00CE8776 /* Launch Screen.storyboard */; };
 		FAD33B981F27049C0059B376 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD33B971F27049C0059B376 /* main.m */; };
 		FAD33B9B1F27049C0059B376 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD33B9A1F27049C0059B376 /* AppDelegate.m */; };
 		FAD33B9E1F27049C0059B376 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD33B9D1F27049C0059B376 /* ViewController.m */; };
 		FAD33BA11F27049C0059B376 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD33B9F1F27049C0059B376 /* Main.storyboard */; };
 		FAD33BA31F27049C0059B376 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAD33BA21F27049C0059B376 /* Assets.xcassets */; };
-		FAD33BA61F27049C0059B376 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD33BA41F27049C0059B376 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +36,7 @@
 /* Begin PBXFileReference section */
 		FA9030A51F27057B0045D46E /* ZHEnhancementLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHEnhancementLayer.h; sourceTree = "<group>"; };
 		FA9030A61F27057B0045D46E /* ZHEnhancementLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHEnhancementLayer.m; sourceTree = "<group>"; };
+		FAB5F2F31F270CCA00CE8776 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		FAD33B931F27049C0059B376 /* ZHEnhancementAnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZHEnhancementAnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAD33B971F27049C0059B376 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FAD33B991F27049C0059B376 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -44,7 +45,6 @@
 		FAD33B9D1F27049C0059B376 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FAD33BA01F27049C0059B376 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FAD33BA21F27049C0059B376 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FAD33BA51F27049C0059B376 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAD33BA71F27049C0059B376 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAD33BAC1F27049C0059B376 /* ZHEnhancementAnimationDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZHEnhancementAnimationDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAD33BB71F27049C0059B376 /* ZHEnhancementAnimationDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZHEnhancementAnimationDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -112,8 +112,8 @@
 				FAD33B9D1F27049C0059B376 /* ViewController.m */,
 				FAD33B9F1F27049C0059B376 /* Main.storyboard */,
 				FAD33BA21F27049C0059B376 /* Assets.xcassets */,
-				FAD33BA41F27049C0059B376 /* LaunchScreen.storyboard */,
 				FAD33BA71F27049C0059B376 /* Info.plist */,
+				FAB5F2F31F270CCA00CE8776 /* Launch Screen.storyboard */,
 				FAD33B961F27049C0059B376 /* Supporting Files */,
 			);
 			path = ZHEnhancementAnimationDemo;
@@ -236,7 +236,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAD33BA61F27049C0059B376 /* LaunchScreen.storyboard in Resources */,
+				FAB5F2F41F270CCA00CE8776 /* Launch Screen.storyboard in Resources */,
 				FAD33BA31F27049C0059B376 /* Assets.xcassets in Resources */,
 				FAD33BA11F27049C0059B376 /* Main.storyboard in Resources */,
 			);
@@ -306,14 +306,6 @@
 				FAD33BA01F27049C0059B376 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		FAD33BA41F27049C0059B376 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FAD33BA51F27049C0059B376 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
