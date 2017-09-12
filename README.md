@@ -5,12 +5,12 @@
 
 How to use
 --
-###Improt
+### Improt
 
 ```
 #import "ZHEnhancementLayer.h"
 ```
-###Initialization
+### Initialization
 
 ```
 @property (nonatomic, strong) ZHEnhancementLayer *enhancementLayer;
@@ -33,6 +33,6 @@ self.enhancementLayer.animationDuration = 3.f;
 //开启动画
 [[self enhancementLayer] startAnimation];
 ```
-##Thank you for reviewing
+## Thank you for reviewing
 
 
