@@ -1,8 +1,20 @@
 # ZHEnhancementAnimation
-基于CAReplicatorLayer,通过CAKeyframeAnimation实现第一个ArcLayer出现后出现第二个ArcLayer再一起消失的动画,类似声呐扩散效果
+基于CAReplicatorLayer,通过CAKeyframeAnimation实现第一个ArcLayer出现后出现第二个ArcLayer,然再一起消失的动画,类似声呐扩散效果,效果图如下:
+
 ![效果图](https://i.loli.net/2017/09/12/59b74ab21b99f.gif)
 
-```@property (nonatomic, strong) ZHEnhancementLayer *enhancementLayer;```
+How to use
+--
+###Improt
+
+```
+#import "ZHEnhancementLayer.h"
+```
+###Initialization
+
+```
+@property (nonatomic, strong) ZHEnhancementLayer *enhancementLayer;
+```
 
 ```
 self.enhancementLayer = [[ZHEnhancementLayer alloc] init];
@@ -16,9 +28,11 @@ self.enhancementLayer.position = self.view.center;
 self.enhancementLayer.arcLineWidth = 3.f;
 //设置弧颜色
 self.enhancementLayer.acrLineColor = [UIColor redColor];
-//设置动画时间self.enhancementLayer.animationDuration = 3.f;
+//设置动画时间
+self.enhancementLayer.animationDuration = 3.f;
 //开启动画
 [[self enhancementLayer] startAnimation];
 ```
+##Thank you for reviewing
 
 
