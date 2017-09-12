@@ -30,8 +30,8 @@
     [[[self view] layer] insertSublayer:[self enhancementLayer] above:[[self view] layer]];
     
     //重新构造大小弧的路径
-    [self.enhancementLayer rebuildNormalAcrPathWithCenter:CGPointMake(0, 0) radius:100 startAngle:0.8*M_PI endAngle:1.2*M_PI clockwise:YES];
-    [self.enhancementLayer rebuildSmallAcrPathWithCenter:CGPointMake(0, 0) radius:80 startAngle:0.8*M_PI endAngle:1.2*M_PI clockwise:YES];
+    [[self enhancementLayer] rebuildNormalAcrPathWithCenter:CGPointMake(0, 0) radius:100 startAngle:0.8*M_PI endAngle:1.2*M_PI clockwise:YES];
+    [[self enhancementLayer] rebuildSmallAcrPathWithCenter:CGPointMake(0, 0) radius:80 startAngle:0.8*M_PI endAngle:1.2*M_PI clockwise:YES];
     //设置弧宽度
     self.enhancementLayer.arcLineWidth = 3.f;
     //设置弧颜色
